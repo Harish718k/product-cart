@@ -1,6 +1,6 @@
 import React, { useContext, useEffect, useState } from 'react'
 import { cartContext } from '../App'
-import { ConfirmDialog } from './confirmDialog';
+import { ConfirmDialog } from './ConfirmDialog';
 
 export const Cart = () => {
     const {cart, setCart} = useContext(cartContext);
