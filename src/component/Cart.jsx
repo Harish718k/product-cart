@@ -32,7 +32,7 @@ export const Cart = () => {
         <div className="cart-content">
         {cart.length<=0
         ?<div className='empty-cart'>
-            <img src="/assets/icon/illustration-empty-cart.svg" alt="" />
+            <img src="./assets/icon/illustration-empty-cart.svg" alt="" />
             <p>Your added item will appear here.</p>
         </div>
         :
@@ -44,7 +44,7 @@ export const Cart = () => {
                 <p>{item.quantity}x <span className="item-price">@ ${item.price}</span><span className="item-total-price">${item.price * item.quantity}</span></p>
             </div>
             <button className='remove-btn' onClick={()=>handleRemoveItem(item)}>
-                <img src="/assets/icon/icon-remove-item.svg" alt="" />
+                <img src="./assets/icon/icon-remove-item.svg" alt="" />
             </button>
            </li> 
         ))}
@@ -54,7 +54,7 @@ export const Cart = () => {
             <h2>${price}</h2>
         </div>
         <div className="carbon-neutral">
-        <img src="/assets/icon/icon-carbon-neutral.svg" alt="" />
+        <img src="./assets/icon/icon-carbon-neutral.svg" alt="" />
         <p>This is a <span>carbon-neutral</span> delivery</p>
         </div>
         <button className='confirm-btn' onClick={orderPlaced}>Confirm Order</button>

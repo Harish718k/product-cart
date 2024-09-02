@@ -14,7 +14,7 @@ export const ConfirmDialog = ({price, setDialog}) => {
   return (
     <div id='body'>
         <div className='container'>
-        <img src="/assets/icon/icon-order-confirmed.svg" alt="" />
+        <img src="./assets/icon/icon-order-confirmed.svg" alt="" />
         <h1>Order Confirmed</h1>
         <p>We hope you enjoy your food!</p>
         <div className="items">

@@ -38,12 +38,12 @@ export const Product = ({item, index}) => {
         <img className={cart.includes(item)?"item-added":"item-img"} src={item.image.desktop} alt="" />
         {cart.includes(item)
         ?<button className="add-btn-clicked">
-            <img onClick={()=>handleDecrement(item.id)} src="/assets/icon/icon-decrement-quantity.svg" alt="" />
+            <img onClick={()=>handleDecrement(item.id)} src="./assets/icon/icon-decrement-quantity.svg" alt="" />
             <p>{item.quantity}</p>
-            <img onClick={()=>handleIncrement(item.id)} src="/assets/icon/icon-increment-quantity.svg" alt="" />
+            <img onClick={()=>handleIncrement(item.id)} src="./assets/icon/icon-increment-quantity.svg" alt="" />
         </button>
         :<button className="add-btn" onClick={addCart}>
-            <img src="/assets/icon/icon-add-to-cart.svg" alt="" />
+            <img src="./assets/icon/icon-add-to-cart.svg" alt="" />
             <p>Add to Cart</p>
         </button>}
     </div>
