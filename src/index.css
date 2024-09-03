@@ -19,7 +19,7 @@ body h1{
 
 #root{
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   max-width: 1700px;
 }
 
