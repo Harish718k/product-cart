@@ -19,8 +19,10 @@ body h1{
 
 #root{
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  gap: 20px;
   max-width: 1700px;
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 750px){
